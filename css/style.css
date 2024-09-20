@@ -81,7 +81,7 @@
 
 /* section one */
 
-.section-odd {
+.section-small {
   background-color: blue;
   padding: 10px 0;
   border: 1px dashed black;
@@ -93,7 +93,7 @@
   border: 1px dashed black;
 }
 
-/* sections two */
+/* section two */
 
 section {
   background-color: white;
@@ -122,4 +122,14 @@ section {
   height: 200px;
   max-width: 70%;
   border: 1px dashed black;
+}
+
+.section-odd {
+  background-color: grey;
+  padding: 10px 0;
+}
+
+.section-odd > .section-two-content {
+  display: flex;
+  flex-direction: row-reverse;
 }

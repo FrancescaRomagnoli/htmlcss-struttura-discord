@@ -33,6 +33,10 @@
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container-small {
   width: 800px;
   max-width: 100%;
@@ -41,23 +45,19 @@
 
 /* HEADER */
 
-.site-header-background {
+.page-header-background {
   background-color: aqua;
   height: 50px;
   display: flex;
   align-items: center;
 }
 
-.site-header {
+.page-header {
   background-color: blueviolet;
   border: 1px dashed black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.link-item {
-  display: inline-block;
 }
 
 .header-logo,
@@ -75,6 +75,16 @@
   display: flex;
   justify-content: center;
   flex: 1 0 200px;
+}
+
+.header-logo,
+.header-login,
+.header-nav {
+  border: 1px dashed black;
+}
+
+.link-item {
+  display: inline-block;
 }
 
 /* # MAIN */

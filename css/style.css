@@ -10,7 +10,6 @@
 .debug {
   background-color: aqua;
   border: 1px dashed black;
-  padding: 5px;
 }
 
 .debug .debug {
@@ -28,15 +27,31 @@
 /* # UTILS */
 
 .container {
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 5px auto;
+  padding: 0 0px;
   width: 1000px;
   max-width: 100%;
 }
 
+.container-small {
+  height: 200px;
+  width: 800px;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
 /* HEADER */
 
+.site-header-background {
+  background-color: aqua;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
 .site-header {
+  background-color: blueviolet;
+  border: 1px dashed black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,4 +76,17 @@
   display: flex;
   justify-content: center;
   flex: 1 0 200px;
+}
+
+/* # MAIN */
+
+.section-one {
+  background-color: blue;
+  padding: 10px 0;
+  border: 1px dashed black;
+}
+
+.section-one-content {
+  background-color: magenta;
+  border: 1px dashed black;
 }

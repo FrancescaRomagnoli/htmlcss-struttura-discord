@@ -45,3 +45,20 @@
 .link-item {
   display: inline-block;
 }
+
+.header-logo,
+.header-login {
+  flex: 0 0 150px;
+  max-width: 100%;
+}
+
+.header-login {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 200px;
+}

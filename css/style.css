@@ -1,0 +1,35 @@
+/* # RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* # DEBUG */
+.debug {
+  background-color: aqua;
+  border: 1px dashed black;
+  padding: 5px;
+}
+
+.debug .debug {
+  background-color: blue;
+}
+
+.debug .debug .debug {
+  background-color: purple;
+}
+
+.debug .debug .debug .debug {
+  background-color: pink;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}

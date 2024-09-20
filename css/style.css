@@ -34,7 +34,6 @@
 }
 
 .container-small {
-  height: 200px;
   width: 800px;
   max-width: 100%;
   margin: 20px auto;
@@ -80,13 +79,47 @@
 
 /* # MAIN */
 
-.section-one {
+/* section one */
+
+.section-odd {
   background-color: blue;
   padding: 10px 0;
   border: 1px dashed black;
 }
 
 .section-one-content {
+  height: 200px;
   background-color: magenta;
+  border: 1px dashed black;
+}
+
+/* sections two */
+
+section {
+  background-color: white;
+  padding: 10px 0;
+  /* border: 1px dashed black; */
+}
+
+.section-two-content {
+  display: flex;
+  height: 200px;
+  background-color: magenta;
+  border: 1px dashed black;
+}
+
+.element-one {
+  flex: 1 0 250px;
+  background-color: aqua;
+  height: 200px;
+  max-width: 30%;
+  border: 1px dashed black;
+}
+
+.element-two {
+  flex: 1 0 650;
+  background-color: green;
+  height: 200px;
+  max-width: 70%;
   border: 1px dashed black;
 }

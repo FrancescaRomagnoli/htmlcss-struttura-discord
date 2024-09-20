@@ -133,3 +133,48 @@ section {
   display: flex;
   flex-direction: row-reverse;
 }
+
+.single-section-content {
+  background-color: brown;
+  height: 400px;
+  border: 1px dashed black;
+}
+
+/* # FOOTER */
+
+footer {
+  background-color: darkslategray;
+}
+
+footer > .container {
+  display: flex;
+}
+
+.footer-one {
+  flex: 1 0 250px;
+  background-color: aqua;
+  height: 200px;
+  max-width: 20%;
+  border: 1px dashed black;
+}
+
+.footer-two {
+  flex: 1 0 250px;
+  background-color: aqua;
+  height: 200px;
+  max-width: 80%;
+  border: 1px dashed black;
+}
+
+.footer-end {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.footer-logo {
+  background-color: coral;
+  border: 1px dashed black;
+  padding: 5px;
+}

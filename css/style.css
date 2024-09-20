@@ -18,11 +18,11 @@
 }
 
 .debug .debug .debug {
-  background-color: purple;
+  background-color: lightpink;
 }
 
 .debug .debug .debug .debug {
-  background-color: pink;
+  background-color: lightgreen;
 }
 
 /* # UTILS */
@@ -32,4 +32,16 @@
   padding: 0 10px;
   width: 1000px;
   max-width: 100%;
+}
+
+/* HEADER */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-item {
+  display: inline-block;
 }
